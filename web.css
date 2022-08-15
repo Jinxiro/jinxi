@@ -290,19 +290,36 @@ p {
         background-color: black;
     }
     .hero-image{
-        height: 120%;
-        width: 105%;
+        height: 110%;
+        width: 110%;
+        margin: auto;
         background-image: cover;
-        background-attachment: fixed;
+        background-position: center;
     }
     .hero-text h1{
         font-size: 35px;
+        max-width: 300px;
 }
     .mytext .line{
     font-size: 25px;
 }
 .mytext{
     margin-top: 2px;
+}
+.navi li {
+    font-size: 13px;
+    padding: 20px;
+}.media{
+    margin-top: -40%;
+}
+.media h1{
+    font-size: 18px;
+}
+.media .fa{
+    padding: 3px;
+    padding-top: 8px;
+    margin: 12px;
+    font-size: 40px;
 }
 }
 
