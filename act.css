@@ -418,7 +418,7 @@ p {
 	    background-image: url(header3.jpg);
    }
 }
-@media all and (max-width: 390px) {
+@media all and (max-width: 350px) {
 
     p {
         font-size: 11px;
@@ -430,8 +430,8 @@ p {
         margin-top: 140%;
     }
     .hero-image{
-        height: 400vh;
-        width: 150%;
+        height: 450vh;
+        width: 170%;
         background-size: cover;
         background-position: right;
         background-repeat: no-repeat;
