@@ -284,8 +284,25 @@ p {
         margin: 12px;
         font-size: 40PX;
     }
-    
-    
 }
-
+@media all and (max-width: 450px) {
+    body{
+        background-color: black;
+    }
+    .hero-image{
+        height: 120%;
+        width: 110%;
+        background-image: cover;
+        background-attachment: fixed;
+    }
+    .hero-text h1{
+        font-size: 35px;
+}
+    .mytext .line{
+    font-size: 25px;
+}
+.mytext{
+    margin-top: 2px;
+}
+}
 
