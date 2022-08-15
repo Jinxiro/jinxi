@@ -4,10 +4,6 @@
     margin: 0%;
 }
 
-body, html {
-
-}
-
 html {
     scroll-behavior: smooth;
 }
@@ -413,7 +409,29 @@ p {
     }
     .hero-image{
         height: 400vh;
-        width: 105%;
+        width: 120%;
+        background-size: cover;
+        background-position: right;
+        background-repeat: no-repeat;
+    }
+    body {
+	    background-image: url(header3.jpg);
+   }
+}
+@media all and (max-width: 390px) {
+
+    p {
+        font-size: 11px;
+        padding: 2px;
+    }
+    .text{
+        width: 75%;
+        margin: 40px;
+        margin-top: 140%;
+    }
+    .hero-image{
+        height: 400vh;
+        width: 150%;
         background-size: cover;
         background-position: right;
         background-repeat: no-repeat;
@@ -553,8 +571,6 @@ p {
         flex-wrap: 35%;
     }
 
-    #flex-container4, #flex-container1{
-        flex-basis:%;
     }
 }
       

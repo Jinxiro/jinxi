@@ -291,7 +291,7 @@ p {
     }
     .hero-image{
         height: 120%;
-        width: 110%;
+        width: 105%;
         background-image: cover;
         background-attachment: fixed;
     }
